@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  background-color: black;
+  color: #b3ffb3;
+}
+
+#title {
+  border-width: 5 px;
+  border-color: white;
+  text-align: center;
+  font-size: 60px;
+}
+#navi {
+  list-style-type: none;
+  margin: 40;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-size:40px;
+}
+
+#navi li {
+  display: inline;
+}
+
+#navi li a {
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+#navi li a:hover {
+    background-color: #111;
+}
+.active {
+    background-color: #4CAF50;
+}
