@@ -3,19 +3,36 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="styles.css">
-    <title>The Geaux Zone</title>
+    <title>Activities - The Geaux Zone</title>
 </head>
 
 <body>
     <div id="title-div">
-        <h1 id="title">The Geaux Zone</h1>
+        <img id="title" src="images/title.png" alt="The Geaux Zone" />
+        <!--<h1 id="title">The Geaux Zone</h1>-->
+        <ul id="navi">
+            <li><a href="home.html">Home</a></li>
+            <li class="active"><a href="activities.html">Activities</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="packages.html">Packages</a></li>
+            <li><a href="deals.html">Deals</a></li>
+        </ul>
     </div>
-    <ul id="navi">
-        <li><a href="home.html">Home</a></li>
-        <li class="active"><a href="activities.html">Activities</a></li>
-        <li><a href="menu.html">Menu</a></li>
-        <li><a href="packages.html">Packages</a></li>
-        <li><a href="deals.html">Deals</a></li>
-    </ul>
+    <div id="body">
+        <h1>Activities</h1><!--TODO: replace with custom image-->
+        <img id="map-pic" src="images/map-pic.png" alt="map of the Geaux Zone" />
+        <h2>What will you find at the Geaux Zone?</h2>
+        <div id="activities">
+            <ul>
+                <li>Go Carts</li>
+                <li>Mini-Golf</li>
+                <li>Game Room</li>
+                <ul>
+                    <li>Pool Table</li>
+                    <li>Skee Ball</li>
+                </ul>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>

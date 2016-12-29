@@ -4,15 +4,16 @@ body {
 }
 
 #title {
-  color: #b3ffb3;
   text-align: center;
   font-size: 60px;
+  margin:0;
+  padding:0;
 }
 #navi {
   list-style-type: none;
   width:100%;
   padding:0;
-  /*margin:auto;*/
+  margin: 0 auto 0;
   overflow: hidden;
   background-color: #333;
   font-size:40px;
@@ -34,8 +35,34 @@ body {
 
 #navi li:hover {
     background-color: #111;
+    box-shadow: 4px 4px 9px black;
 }
 
 #navi li.active {
     background-color: #4CAF50;
+}
+
+#body {
+    color: #b3ffb3;
+}
+
+#activities, #menu {
+    max-width:200px;
+    margin:auto;
+    text-align:left;
+}
+
+#packages {
+    max-width: 80%;
+    margin: auto;
+}
+
+.pack-img {
+    display:inline-block;
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+    border: 0px solid black;
+    border-radius: 20px;
+    /*box-shadow: #333 0 0 30px;*/
 }
